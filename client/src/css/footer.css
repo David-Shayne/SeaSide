@@ -1,0 +1,110 @@
+.footer {
+  background: #f3f3f3;
+  margin-top: 5vh;
+  padding: 3rem 0;
+}
+
+.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .container div {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 2%;
+}
+
+.footer .container .line {
+  width: 1%;
+}
+
+.footer .container h5 {
+  font-weight: 500;
+  margin-bottom: 1rem;
+  width: 40%;
+  text-align: center;
+}
+
+.footer .container .deals .input-field {
+  margin: 0;
+  width: 50%;
+}
+
+.footer .container .deal-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+}
+
+.footer .container button {
+  background: none !important;
+  border: 1px solid #c20808;
+  color: #c20808;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  padding: 0.5rem;
+}
+
+.footer .container button:hover, .footer .container button:focus {
+  background: #c20808 !important;
+  color: white;
+}
+
+.footer .container .subscribe-btn {
+  margin-left: 1rem;
+}
+
+.footer .container .social-imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer .container .social-imgs svg {
+  color: #c20808;
+  opacity: 0.5;
+  margin: 0 0.33rem;
+}
+
+.footer .container .social-imgs svg:hover {
+  opacity: 1;
+}
+
+.footer .container .social-imgs a:first-child svg {
+  margin-left: 0;
+}
+
+.footer .container .social-imgs a:last-child svg {
+  margin-right: 0;
+}

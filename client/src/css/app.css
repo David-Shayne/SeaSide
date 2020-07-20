@@ -1,0 +1,40 @@
+html {
+  font-size: 15px;
+}
+
+.container-small {
+  margin: 0 auto;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+.container {
+  width: 60%;
+}
+
+.bottom a {
+  cursor: pointer !important;
+}

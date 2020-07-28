@@ -184,6 +184,9 @@ input[type='text']:not(.browser-default) {
     margin-right: 1rem !important;
 }
 
+.field {
+    width: 100% !important;
+}
 .sticky {
     position: fixed;
     top: 0;
@@ -192,4 +195,53 @@ input[type='text']:not(.browser-default) {
     background: white;
     width: 100vw;
     z-index: 1000;
+}
+
+// Laptop
+@media only Screen and (max-width: 1300px) {
+    .DateInput {
+        max-width: 4rem !important;
+    }
+    .DateRangePickerInput_arrow_svg {
+        width: 1rem !important;
+    }
+}
+
+// Ipad pro
+@media only Screen and (max-width: 1050px) {
+    .DateInput {
+        max-width: 3rem !important;
+    }
+}
+
+// Ipad
+@media only Screen and (max-width: 800px) {
+    .DateInput {
+        max-width: 1.66rem !important;
+    }
+    .search-btn {
+        width: 50%;
+    }
+    .occupancy {
+        width: 80% !important;
+    }
+}
+
+// Iphone Large
+@media only Screen and (max-width: 450px) {
+    .field:nth-of-type(3),
+    .field:nth-of-type(2) {
+        display: none;
+    }
+}
+
+// Iphone Small
+@media only Screen and (max-width: 350px) {
+    .member {
+        display: none !important;
+    }
+    .field {
+        border: none !important;
+        justify-content: flex-end;
+    }
 }

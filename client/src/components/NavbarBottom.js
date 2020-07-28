@@ -14,7 +14,7 @@ export class NavbarBottom extends Component {
             <div>
                 <div className="navbar-native bottom">
                     <div className="nav-flex">
-                        <a data-target="sign-up" class="modal-trigger">
+                        <a data-target="sign-up" class="modal-trigger member">
                             <u>Become a member</u> in just one click
                         </a>
                         <div className="right-container">

@@ -108,3 +108,78 @@
 .hidden {
     display: none !important;
 }
+
+// Laptop
+@media only Screen and (max-width: 1300px) {
+    .property-item {
+        .img {
+            img {
+                width: 15rem !important;
+                height: 15rem !important;
+            }
+        }
+        .desc-container {
+            p {
+                margin-bottom: 1.33rem;
+            }
+        }
+    }
+}
+
+// Ipad pro
+@media only Screen and (max-width: 1050px) {
+    .property-item {
+        .desc {
+            width: 60% !important;
+        }
+    }
+}
+
+// Ipad
+@media only Screen and (max-width: 800px) {
+    .property-item {
+        .title {
+            margin-bottom: 1rem;
+        }
+        .content {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .img,
+        .img img {
+            width: 100% !important;
+        }
+        .line {
+            display: none;
+        }
+        .desc,
+        p {
+            width: 100% !important;
+        }
+    }
+}
+
+// Iphone Large
+@media only Screen and (max-width: 450px) {
+    .properties-section {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .property-item {
+        margin-left: 0 !important;
+        text-align: start;
+    }
+    .selector {
+        margin-bottom: 3.33vh;
+    }
+}
+
+// Iphone Small
+@media only Screen and (max-width: 350px) {
+    .logo {
+        width: 6.66rem !important;
+        height: 4.44rem !important;
+    }
+}

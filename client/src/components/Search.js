@@ -119,7 +119,7 @@ export class Search extends Component {
                         </div>
                         <div className="field">
                             <div
-                                class="input-field"
+                                class="input-field occupancy"
                                 style={{ margin: '0.33rem 0' }}
                             >
                                 <select>

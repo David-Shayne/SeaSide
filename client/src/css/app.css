@@ -38,3 +38,28 @@ h5 {
 .bottom a {
   cursor: pointer !important;
 }
+
+@media only Screen and (max-width: 1300px) {
+  .container,
+  .nav-flex,
+  .container-small {
+    width: 70%;
+  }
+}
+
+@media only Screen and (max-width: 1050px) {
+  .container,
+  .nav-flex,
+  .container-small {
+    width: 80%;
+  }
+}
+
+@media only Screen and (max-width: 1050px) {
+  .container,
+  .nav-flex,
+  .container-small {
+    width: 90%;
+    text-align: center;
+  }
+}

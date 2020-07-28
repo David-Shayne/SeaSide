@@ -89,6 +89,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer .container .social-imgs svg {
@@ -107,4 +110,10 @@
 
 .footer .container .social-imgs a:last-child svg {
   margin-right: 0;
+}
+
+@media only Screen and (max-width: 450px) {
+  .deal-form .input-field {
+    display: none !important;
+  }
 }

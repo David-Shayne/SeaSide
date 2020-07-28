@@ -32,3 +32,31 @@ h5 {
 .bottom a {
     cursor: pointer !important;
 }
+
+// Laptop
+@media only Screen and (max-width: 1300px) {
+    .container,
+    .nav-flex,
+    .container-small {
+        width: 70%;
+    }
+}
+
+// Ipad pro
+@media only Screen and (max-width: 1050px) {
+    .container,
+    .nav-flex,
+    .container-small {
+        width: 80%;
+    }
+}
+
+// Iphone Large
+@media only Screen and (max-width: 1050px) {
+    .container,
+    .nav-flex,
+    .container-small {
+        width: 90%;
+        text-align: center;
+    }
+}

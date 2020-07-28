@@ -27,9 +27,43 @@
   width: 40rem;
 }
 
-h1 {
+.description h1 {
   font-size: 3.33rem !important;
   margin: 0 !important;
   margin-bottom: 1rem !important;
   margin-top: 10vh !important;
+}
+
+@media only Screen and (max-width: 1300px) {
+  .description h1 {
+    margin-top: 5vh !important;
+  }
+}
+
+@media only Screen and (max-width: 1050px) {
+  .description h1 {
+    margin-top: 5vh !important;
+  }
+  .parallax-container {
+    height: 20vh !important;
+  }
+}
+
+@media only Screen and (max-width: 450px) {
+  .description h1 {
+    font-size: 2rem !important;
+  }
+  .description p {
+    font-size: 0.8rem !important;
+    width: 100%;
+  }
+}
+
+@media only Screen and (max-width: 350px) {
+  .parallax-container {
+    height: 40vh !important;
+  }
+  .description h1 {
+    margin-top: 10vh !important;
+  }
 }
